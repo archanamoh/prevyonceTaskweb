@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--title-->
+    <title>Task</title>
+
+    <!--favicon icon-->
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+
+    <!--google fonts-->
+    <link href="css.css?family=Montserrat:400,500,600,700%7COpen+Sans&display=swap" rel="stylesheet">
+     <!-- font awsome icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+<!--header section start-->
+<header class="header">
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+        <div class="container">
+             <h3 class="text-white mt-2"><span class="border-warning border-top border-bottom py-1 text-white">pre</span><span class="text-danger">voy</span><span class="border-warning border-top border-bottom py-1 text-white">ance</span></h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars text-white" aria-hidden="true"></i>
+            </button>
+
+            <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="usertable.html">About</a>
+                    </li>
+                   
+                     <li class="nav-item dropdown">
+                        <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownPage" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownPage">
+                            <a class="dropdown-item" href="login.html">Login Page </a>
+                            <a class="dropdown-item" href="sign-up.html">signup Page</a>
+                            <a class="dropdown-item" href="changepassword.html">changepassword Page</a>
+                             <a class="dropdown-item" href="usertable.html">UserTable</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="profile.html"><i class="fa fa-user color-primary" aria-hidden="true"></i></a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end navbar-->
+</header>
+<!--header section end-->
+
+<!--body content wrap start-->
+<div class="main">
+
+ <section class="hero-section pt-5 background-img full-screen" >
+        <div class="container">
+            <div class="row align-items-center justify-content-between pt-5 pt-sm-5 pt-md-5 pt-lg-0">
+                <div class="col-md-7 col-lg-6">
+                    <div class="hero-content-left text-white">
+                        <h1 class="text-white">Welcome Back !</h1>
+                        <p class="lead">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-5 pt-5">
+                    <div class="card login-signup-card shadow-lg mb-0">
+                        <div class="card-body px-md-5 py-5">
+                            <div class="mb-5">
+                                <h5 class="h3">Login</h5>
+                                <p class="text-muted mb-0">Sign in to your account to continue.</p>
+                            </div>
+
+                            <!--login form-->
+                            <form class="login-signup-form">
+                                <div class="form-group">
+                                    <label class="pb-1">Email Address</label>
+                                    <div class="input-group input-group-merge">
+                                        <div class="input-icon">
+                                            <div class="input-icon text-center mt-3"> 
+                                              <i class="fa fa-envelope color-primary" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <input type="email" class="form-control" placeholder="admin@gmail.com">
+                                    </div>
+                                </div>
+                                <!-- Password -->
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col">
+                                            <label class="pb-1">Password</label>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="password-reset.html" class="form-text small text-muted">
+                                                Forgot password?
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="input-group input-group-merge">
+                                      <div class="input-icon text-center mt-3"> 
+                                            <i class="fa fa-lock color-primary" aria-hidden="true"></i>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Enter your password">
+                                    </div>
+                                </div>
+
+                                <!-- Submit -->
+                                <button class="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3">
+                                    Sign in
+                                </button>
+
+                            </form>
+                        </div>
+                        <div class="card-footer bg-transparent border-top px-md-5"><small>Not registered?</small>
+                            <a href="sign-up.html" class="small"> Create account</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-img-absolute">
+            <img src="img/hero-bg-shape-1.svg" alt="wave shape" class="img-fluid">
+        </div>
+    </section>
+
+</div>
+<!--body content wrap end-->
+
+
+<!--jQuery-->
+<script src="js/jquery-3.5.0.min.js"></script>
+
+<!--Bootstrap js-->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
